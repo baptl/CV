@@ -7,32 +7,147 @@ body
 {
 	background-image : url("img/earth_from_moon.jpg") ;
 	color : white ;
+	display : flex ;
+	flex-direction : row ;
+}
+
+.liseré
+{
+	width : 10% ;
+	margin : 0.25em ;
+	border-radius : 2em ;
+	background-color : rgba(242,142,42,0.9) ;
+}
+
+.contenu
+{
+	width : 90% ;
+	margin : 0.25em ;
+	display : flex ;
+	flex-direction : column ;
+}
+
+header
+{
+	display : flex ;
+	flex-direction : row ;
+	border-radius : 2em ;
+	border : 2px solid silver ;
+	background-color : rgba(242,242,242,0.3) ;
+	justify-content : center ;
+	margin-bottom : 0.25em ;
+}
+
+.introduction
+{
+	display : flex ;
+	flex-direction : row ;
+	border-radius : 2em ;
+	border : 2px solid silver ;
+	background-color : rgba(42,42,42,0.6) ;
+	justify-content : center ;
+	padding : 0.25em ;
+}
+
+img
+{
+	margin : 1.25em ;
+	padding : 0.25em ;
+}
+
+.présentation
+{
+	margin : 1.25em ;
+	padding : 0.25em ;
+	display : flex ;
+	flex-direction : column ;
+	justify-content : center ;
 }
 
 h1
 {
 	font-family : "BankGothic Bold" ;
-	text-shadow : 2px 2px 4px gray ;
+	text-shadow : 2px 2px 4px silver ;
+	margin-top : 0.25em ;
+	margin-bottom : 0.75em ;
+}
+
+.profession
+{
+	font-family : "BankGothic Bold" ;
+	font-size : 1.5em ;
+	text-shadow : 1px 1px 2px silver ;
+	margin-top : 0.25em ;
+	margin-bottom : 0.75em ;
+}
+
+.situation
+{
+	font-family : "BankGothic Bold" ;
+	font-size : 1.5em ;
+	text-shadow : 1px 1px 2px silver ;
+	margin-top : 0.25em ;
+	margin-bottom : 0.75em ;
+}
+
+.citation
+{
+	font-family : "Arial black", sans-serif ;
+	font-size : medium ;
+	font-style : italic ;
+	margin-top : 0.25em ;
+	margin-bottom : 0.75em ;
+}
+
+.cv
+{
+	display : flex ;
+	flex-direction : row ;
+	justify-content : center ;
+	margin-top : 0.25em ;
+	margin-bottom : 0.25em ;
+}
+
+.rubrique
+{
+	display : flex ;
+	flex-direction : column ;
+	border-radius : 2em ;
+	border : 2px solid silver ;
+	background-color : rgba(42,42,42,0.6) ;
+	width : 33% ;
+	padding : 0.25em ;
+	padding-right : 1.75em ;
 }
 
 h2
 {
 	font-family : "BankGothic Bold" ;
-	text-shadow : 2px 2px 4px gray ;
-	border-bottom : 2px solid silver ;
-	border-radius : 2em ;
-}
-
-p
-{
-	font-family : "Arial black", sans-serif ;
-	font-size : medium ;
+	text-shadow : 1px 1px 2px silver ;
+	text-align : center ;
+	text-decoration : underline ;
 }
 
 li
 {
 	font-family : "Arial black", sans-serif ;
 	font-size : medium ;
+	text-align : justify ;
+}
+
+.mainli
+{
+	padding-bottom : 1.25em ;
+}
+
+.subli
+{
+	padding-top : 0.25em ;
+}
+
+strong
+{
+	font-weight : lighter ;
 }
 
 a
@@ -52,53 +167,50 @@ a:visited
 
 mark
 {
-	background-color : rgba(42,42,42,0.1) ;
+	background-color : rgba(242,142,42,0) ;
 	color : rgba(242,142,42,0.9) ;
 	text-decoration : underline ;
 }
 
-.portrait
+.hublot
 {
-	float : left ;
-	margin-right : 0.5em ;
+	display : flex ;
+	border-radius : 2em ;
+	border : 2px solid silver ;
+	background-color : rgba(242,242,242,0.3) ;
+	width : 33% ;
+	padding : 0.25em ;
+	padding-right : 1.75em ;
 }
 
-.profession
+.warning
+{
+	display : flex ;
+	flex-direction : column ;
+	border-radius : 2em ;
+	border : 2px solid silver ;
+	background : -webkit-linear-gradient(left, rgba(242,242,242,0.3), rgba(42,42,42,0.6), rgba(242,242,242,0.3)) ;
+	background :    -moz-linear-gradient(left, rgba(242,242,242,0.3), rgba(42,42,42,0.6), rgba(242,242,242,0.3)) ;
+	background :     -ms-linear-gradient(left, rgba(242,242,242,0.3), rgba(42,42,42,0.6), rgba(242,242,242,0.3)) ;
+	background :      -o-linear-gradient(left, rgba(242,242,242,0.3), rgba(42,42,42,0.6), rgba(242,242,242,0.3)) ;
+	background :         linear-gradient(left, rgba(242,242,242,0.3), rgba(42,42,42,0.6), rgba(242,242,242,0.3)) ;
+	justify-content : center ;
+	margin-top : 0.25em ;
+	padding : 0.25em ;
+	padding-bottom : 1.25em;
+}
+
+h3
 {
 	font-family : "BankGothic Bold" ;
-	font-size : 1.5em ;
-	text-shadow : 2px 2px 4px gray ;
+	font-size : medium ;
+	text-align : center ;
+	text-decoration : underline ;
 }
 
-.situation
-{
-	font-family : "BankGothic Bold" ;
-	font-size : 1.5em ;
-	text-shadow : 2px 2px 4px gray ;
-}
-
-.citation
+.note
 {
 	font-family : "Arial black", sans-serif ;
-	font-size : medium ;
-	font-style : italic ;
-	background-color : rgba(42,42,42,0.1) ;
-}
-
-.débutCV
-{
-	clear : both ;
-}
-
-.ombrage
-{
-	background-color : rgba(42,42,42,0.1) ;
-}
-
-.PS
-{
-	font-family : "Arial black", sans-serif ;
-	font-size : medium ;
-	text-align : right ;
-	background-color : rgba(42,42,42,0.5) ;
+	font-size : small ;
+	text-align : center ;
 }
