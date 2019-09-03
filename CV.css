@@ -1,0 +1,104 @@
+@font-face {
+	font-family : "BankGothic Bold" ;
+	src: url("fonts/BankGothic Bold.ttf") ;
+}
+
+body
+{
+	background-image : url("img/earth_from_moon.jpg") ;
+	color : white ;
+}
+
+h1
+{
+	font-family : "BankGothic Bold" ;
+	text-shadow : 2px 2px 4px gray ;
+}
+
+h2
+{
+	font-family : "BankGothic Bold" ;
+	text-shadow : 2px 2px 4px gray ;
+	border-bottom : 2px solid silver ;
+	border-radius : 2em ;
+}
+
+p
+{
+	font-family : "Arial black", sans-serif ;
+	font-size : medium ;
+}
+
+li
+{
+	font-family : "Arial black", sans-serif ;
+	font-size : medium ;
+}
+
+a
+{
+	color : silver ;
+}
+
+a:hover, a:focus
+{
+	color : rgba(242,142,42,0.9) ;
+}
+
+a:visited
+{
+	color : gray ;
+}
+
+mark
+{
+	background-color : rgba(42,42,42,0.1) ;
+	color : rgba(242,142,42,0.9) ;
+	text-decoration : underline ;
+}
+
+.portrait
+{
+	float : left ;
+	margin-right : 0.5em ;
+}
+
+.profession
+{
+	font-family : "BankGothic Bold" ;
+	font-size : 1.5em ;
+	text-shadow : 2px 2px 4px gray ;
+}
+
+.situation
+{
+	font-family : "BankGothic Bold" ;
+	font-size : 1.5em ;
+	text-shadow : 2px 2px 4px gray ;
+}
+
+.citation
+{
+	font-family : "Arial black", sans-serif ;
+	font-size : medium ;
+	font-style : italic ;
+	background-color : rgba(42,42,42,0.1) ;
+}
+
+.débutCV
+{
+	clear : both ;
+}
+
+.ombrage
+{
+	background-color : rgba(42,42,42,0.1) ;
+}
+
+.PS
+{
+	font-family : "Arial black", sans-serif ;
+	font-size : medium ;
+	text-align : right ;
+	background-color : rgba(42,42,42,0.5) ;
+}
