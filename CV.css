@@ -172,15 +172,32 @@ mark
 	text-decoration : underline ;
 }
 
-.hublot
+.hiresvideo
 {
 	display : flex ;
 	border-radius : 2em ;
 	border : 2px solid silver ;
-	background-color : rgba(242,242,242,0.3) ;
+	background-color : rgba(42,42,42,0.6) ;
 	width : 33% ;
 	padding : 0.25em ;
 	padding-right : 1.75em ;
+}
+
+.loresvideo
+{
+	display : none ;
+}
+
+iframe
+{
+	display : flex ;
+	border-radius : 2em ;
+	width : 99% ;
+	padding : 0.25em ;
+	margin-top : 1.75em ;
+	margin-bottom : 1.75em ;
+	margin-left : 1.75em ;
+	opacity : 0.9 ;
 }
 
 .warning
@@ -213,4 +230,68 @@ h3
 	font-family : "Arial black", sans-serif ;
 	font-size : small ;
 	text-align : center ;
+}
+
+@media screen and (max-width : 1280px)
+{
+
+	body
+	{
+		background-image : url("img/space.jpg") ;
+	}
+
+	.cv
+	{
+		flex-direction : column ;
+		margin-top : 0em ;
+		margin-bottom : 0em ;
+	}
+
+	.rubrique
+	{
+		width : auto ;
+		margin-top : 0.25em ;
+		margin-bottom : 0.25em ;
+	}
+
+	.hiresvideo
+	{
+		display : none ;
+	}
+
+	.loresvideo
+	{
+	display : flex ;
+	flex-direction : row ;
+	border-radius : 2em ;
+	border : 2px solid silver ;
+	background-color : rgba(42,42,42,0.6) ;
+	width : auto ;
+	height : 25em ;
+	padding : 0.25em ;
+	padding-right : 1.75em ;
+	margin-top : 0.25em ;
+	margin-bottom : 0.25em ;
+	}
+
+	iframe
+	{
+		width : 50% ;
+	}
+
+}
+
+@media screen and (max-width : 1024px)
+{
+
+	.liseré
+	{
+		display : none ;
+	}
+
+	.contenu
+	{
+		width : auto ;
+	}
+
 }
